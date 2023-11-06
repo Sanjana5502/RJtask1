@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+/* Add these CSS classes to control card visibility */
+.collapsed {
+  display: none;
+}
+
+.card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.card:hover {
+  background-color: #f5f5f5;
+}
