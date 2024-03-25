@@ -14,7 +14,7 @@ import SearchFilter from './SearchFilter';
 function App() {
   return (
     <div className="App">
-      <h1>Task 1</h1>
+      <h1>Displaying Simple JSX Elements</h1>
       <div className="container">
         <div className="row">
           <div className="col-md-6">
@@ -42,13 +42,13 @@ function App() {
               <SumTwoNumbers />
             </TaskCard>
           </div>
-          <h1>Task 2</h1>
+          <h1>Interactive Counter</h1>
           <div className="col-md-6">
             <TaskCard title="Counter">
               <Counter />
             </TaskCard>
           </div>
-          <h1>Task 3</h1>
+          <h1>Filtering Data in React Components</h1>
           <div className='col-md-6'>
             <TaskCard title="Search Filter">
               <SearchFilter />
